@@ -9,10 +9,11 @@ ni 91xxxxxxxx99
 ab 91xxxxxxxx88
 
 Usage wp the name of the person the message
-  eg:$ 
+  eg:
  ```
-  wp ni hello world
-  ```
+  $ wp ni hello world
+  
+  
     this would send message "hello world" to the number which is aliased to ni 91xxxxxxxx99    
     
     Dependencies: xdotool
