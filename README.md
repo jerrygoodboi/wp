@@ -1,6 +1,6 @@
 Using this you can send messages through whatsapp web from the terminal
 
-Use can specify the numbers in a file called numbers
+You can specify the phone numbers in a file called numbers
   eg:ni 91xxxxxxxx99
      ab 91xxxxxxxx88
 
