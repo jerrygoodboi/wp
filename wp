@@ -1,0 +1,17 @@
+#!/bin/bash
+
+brave &!
+sleep 1
+xdotool search --class brave-browser windowactivate
+number=$(grep $1 numbers | awk '{ print $2 }');
+xdotool key ctrl+l
+xdotool type "https://web.whatsapp.com/send?phone={$number}\&text=${*:2}"
+sleep 1
+xdotool key Return
+sleep 10
+xdotool key Return
+sleep 3
+xdotool key ctrl+w
+
+
+
